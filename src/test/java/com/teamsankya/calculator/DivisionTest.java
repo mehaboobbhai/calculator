@@ -15,14 +15,14 @@ public class DivisionTest {
 	@Test
 	public void addIntTest() {
 		int sum=Division.div(15, 5);
-		TestCase.assertEquals(36, sum);
+		TestCase.assertEquals(30, sum);
 		System.out.println("this is first test....");
 	}
 	@SuppressWarnings("static-access")
 	@Test
 	public void addInt() {
 		int sum=Division.div(5, 5);
-		TestCase.assertEquals(2, sum);
+		TestCase.assertEquals(1, sum);
 		System.out.println("this is second test....");
 	}
 	
