@@ -35,6 +35,7 @@ public class Addition {
     logger.info("additin of two number :"+ a + " "+ b);
     logger.error("something went wrong....");
     logger.warn("we are giving some warning  msg");
+    logger.info("i added raman bhai to my github");
 	return a+b;	
 
 	} 
