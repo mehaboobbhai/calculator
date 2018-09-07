@@ -11,6 +11,7 @@ public class AdditionTest {
 	public void addIntTest() {
 		int sum=Addition.add(20,30);
 		TestCase.assertEquals(50, sum);
+		System.out.println("inside Addition test method");
 	}
 
 }
